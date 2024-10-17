@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda</title>
+    <link rel="preload" href="./build/css/app.css" as="style">
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <h1 class="header__title">Bodas de Diamante<span class="header__title--names">Rosario & Valerio</span></h1>
+            <div class="header__countdown">
+                <div class="header__timer">
+                    <p class="header__timer-hours">00</p>
+                    <span class="header__timer-unit">dias</span>
+                </div>
+                <div class="header__timer">
+                    <p class="header__timer-hours">00</p>
+                    <span class="header__timer-unit">horas</span>
+                </div>
+                <div class="header__timer">
+                    <p class="header__timer-hours">00</p>
+                    <span class="header__timer-unit">minutos</span>
+                </div>
+                <div class="header__timer">
+                    <p class="header__timer-hours">00</p>
+                    <span class="header__timer-unit">segundos</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container invitation">
+        <h2 class="invitation__title">Estimado Invitado</h2>
+        <p class="invitation__title">Queremos hacerles partícipes de las <span>bodas de oro</span> de:</p>
+
+        <div class="spouses">
+            <p class="spouses__wife">María del Rosario</p>
+            <p>Y</p>
+            <p class="spouses__husband">Valerio Arsenio</p>
+        </div>
+
+        <p class="invitation__title">Para celebrar este milagro de amor y paciencia mutuas, le invitamos a usted y a su em ipsum dolor sit, 
+        amet consectetur adipisicing elit. Consequatur architecto tenetur molestiae explicabo fugiat fuga et iure officiis nostrum itaque 
+        sit animi magni rerum, inventore maxime hic veritatis quibusdam assumenda.</p>
+    </section>
+
+    <section class="container godparents">
+        <h2 class="godparents__title">Nuestros Padrinos</h2>
+
+        <div class="">
+            <p class="godparent left">María del Rosario</p>
+            <p class="godparent left">Valerio Arsenio</p>
+            <p class="godparent right">María del Rosario</p>
+            <p class="godparent right">Valerio Arsenio</p>
+        </div>
+    </section>
+
+    <section class="container cards">
+        <h2 class="cards__title">fecha & lugar</h2>
+
+        <div class="card">
+            <img src="" alt="">
+            <p>ceremonia</p>
+            <p>sabado 20 de abril</p>
+            <p>parroquia con nombre</p>
+            <p>12:00 pm</p>
+            <button>ubicación</button>
+        </div>
+    
+        <div class="card">
+            <img src="" alt="">
+            <p>recepción</p>
+            <p>sábado 20 de abril</p>
+            <p>local con nombre</p>
+            <p>2:30 pm</p>
+            <button>ubicación</button>
+        </div>
+    </section>
+
+    <form class="container form">
+        <fieldset>
+            <legend class="legend">Su confirmación es muy importante para nosotros.</legend>
+            <div class="fieldset">
+                <div class="field">
+                    <label>nombre</label>
+                    <input type="text" placeholder="Ingrese su nombre">
+                </div>
+    
+                <div class="field">
+                    <label>¿asistirá?</label>
+                    <select>
+                        <option selected disabled>seleccione una opción</option>
+                        <option value>si</option>
+                        <option value>no</option>
+                    </select>
+                </div>
+    
+                <div class="field">
+                    <label>mensaje</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+    
+            <div>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+
+    <footer class="footer">
+        <p class="footer__text">© 2022 | Nuestra boda</p>
+        <p class="footer__credits">designed by <span class="footer__credits--creator">oswaldo chan</span></p>
+    </footer>
+</body>
+</html>
